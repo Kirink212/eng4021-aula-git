@@ -60,4 +60,5 @@ def delete_task(request, task_id):
     return render(request, "delete_form.html", context={"task": task})
 
 def funcao_bunita():
-    print("Essa função é muito bonita!")
+    nome = "Carla Martins"
+    print(f"{nome} é muito bonita!")
